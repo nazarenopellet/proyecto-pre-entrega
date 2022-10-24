@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    ul, 
+    ol{
+
+    list-style: none;
+    }
+    
+
+    a {
+    text-decoration: none;
+    }
+
+    /*---header---*/
+
+    .header 
+    {background-color: black;
+        color: azure;
+        padding: 15px;
+        display: flex;
+        justify-content: flex-start;
+        height: 57.4px;
+
+    
+    
+    }
+
+    /*hearder-titulo*/
+
+    .titulo-secundario{
+        align-items: center;
+        left: 50%;
+        font-size: 30px;
+        text-align: start;
+        
+    
+    
+    }
+    
+    /*borde subtitulo*/
+
+
+    .rectangulo{
+        background-color: rgba(102, 51, 153, 0.534);
+        width: 1263px;
+        position: relative;
+        height: 40px
+        
+    }
+
+    /*---navbar-list---*/
+
+    .navbar-list
+    {
+        
+        text-align: center;
+        align-items: center;
+        display: flex;
+        gap: 15px;
+        clear: both; 
+        background-color: white; height: 57px; width: 580px; position: relative; 
+        position: absolute; top: 0;
+        position: fixed;
+        right: 0px 
+
+        
+        }
+    
+
+
+    /*navbar-item*/
+    
+    .navbar-item{
+    text-align: center; 
+    justify-content: space-between 10px;
+    transition: all 0.5s; 
+    padding: 15PX
+    
+    }
+
+    /*section-encabezado*/
+    
+
+
+    /*---portada---*/
+
+body{
+    background-image: url(../img/jeffrey-dahmer-1426684.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+    /*---portada-principal---*/
+
+    .portada-principal{
+        text-align: start;
+        padding: inline 20vh;
+        border-radius: 0%;
+       
+        
+    }
+
+    /*titulo-secundario*/
+
+.titulo-secundario{
+    
+    position: absolute; top: 63px; left: 2%;
+    text-align: end;
+    display: flex; justify-content: center;
+    color: black;
+    
+}
+
+    /*img-index*/
+
+    .img-index{
+        height: 300px;
+        width: auto;
+        position: relative; top: 10px;
+    float: left;
+    margin-right: 15px;
+    }
+
+    /*img-parrafo*/
+    
+    .img-parrafo{
+        z-index: 1;
+        width: 1000px;
+        align-items: center;
+        height: 400px;
+        padding: 20px 20px;
+        line-height: 1.5;
+        background: white;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-right: auto;
+        border-radius: 15px
+        
+    }
+    
+    /*img-infancia*/
+
+
+    .img-infancia{
+        height: 300px;
+        width: auto;
+        position: relative; top: 10px;
+    float: left;
+    margin-right: 15px;
+    }
+    
+    
+    /*img-parrafo-2*/
+
+
+    .img-parrafo-2{
+        z-index: 1;
+        width: 1050px;
+        align-items: center;
+        height: 640px;
+        padding: 20px 20px;
+        line-height: 1.5;
+        background: white;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-right: auto;
+        border-radius: 15px
+        
+    }
+
+
+    /*img-victimas*/
+
+    .img-victimas{
+    height: 500px;
+    width: auto;
+    position: relative; top: 5px; 
+float: left;
+margin-right: 15px;
+}
+
+/*img-parrafo-3*/
+
+.img-parrafo-3{
+z-index: 1;
+width: 1050px;
+align-items: center;
+height: 600px;
+padding: 20px 20px;
+line-height: 1.5;
+background: white;
+margin-left: auto;
+margin-top: 20px;
+margin-right: auto;
+border-radius: 15px
+}
+
+/*img-parrafo-4*/
+
+.img-parrafo-4{
+    z-index: 1;
+width: 800px;
+align-items: center;
+height: 600px;
+padding: 20px 20px;
+line-height: 1.5;
+background: white;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 15px
+}
+
+/*img-familia*/
+
+.img-familia{
+    height: 300px;
+    width: auto;
+    position: relative; top: 5px; 
+float: left;
+margin-right: 15px;
+}
+
+
+/*img-parrafo-5*/
+
+.img-parrafo-5{
+    z-index: 1;
+    width: 1000px;
+    align-items: center;
+    height: 600px;
+    padding: 20px 20px;
+    line-height: 1.5;
+    background: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px
+
+}
+
+/*img-muerte*/
+
+.img-muerte{
+    height: 300px;
+    width: auto;
+    position: relative; top: 5px; 
+float: left;
+margin-right: 15px;
+}
+
+/*redes*/
+
+.redes{
+    background-color: black;
+    height: 100px;
+    position: relative; top: 100px;
+
+    }
+
+/*FOTO-IG*/ 
+
+.foto-ig{
+    position: relative; top: 1px; 
+    height: 74px;
+    width: 130px
+    
+}
+
+/*foto-fb*/
+
+.foto-fb{
+    position: relative; left: 100px; bottom: 87px;
+    height: 60px;
+    width: 110px
+    
+}
+
+
+/*facebook*/
+
+.facebook{
+    background-color: white;
+    width: 5px;
+    
+    position: relative; top: 5px;
+    
+}
+
+/*instagram*/
+
+.instagram{
+    background-color: white;
+    
+    position: relative
+}
+
+
+/*footer*/
+
