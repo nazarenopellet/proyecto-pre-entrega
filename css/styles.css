@@ -18,8 +18,8 @@
     /*---header---*/
 
     .header 
-    {background-color: black;
-        color: azure;
+    {background-color: white;
+        color: white;
         padding: 15px;
         display: flex;
         justify-content: flex-start;
@@ -101,7 +101,7 @@ body{
         text-align: start;
         padding: inline 20vh;
         border-radius: 0%;
-       
+        
         
     }
 
@@ -113,7 +113,7 @@ body{
     text-align: end;
     display: flex; justify-content: center;
     color: black;
-    
+
 }
 
     /*img-index*/
@@ -218,7 +218,7 @@ border-radius: 15px
 
 /*img-familia*/
 
-.img-familia{
+.carousel-inner{
     height: 300px;
     width: auto;
     position: relative; top: 5px; 
@@ -228,6 +228,10 @@ margin-right: 15px;
 
 
 /*img-parrafo-5*/
+.mt-0 {
+    margin-bottom: 0 !important;
+  }
+  
 
 .img-parrafo-5{
     z-index: 1;
@@ -240,7 +244,11 @@ margin-right: 15px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 15px
+    border-radius: 1 px
+    
+    
+
+
 
 }
 
@@ -282,6 +290,7 @@ margin-right: 15px;
 }
 
 
+
 /*facebook*/
 
 .facebook{
@@ -303,3 +312,44 @@ margin-right: 15px;
 
 /*footer*/
 
+.texto{
+    margin-bottom: 10px;
+    
+    }
+
+    /*color de las letras de la barra nav*/
+
+.navbar-nav .nav-link.active{
+color: white;
+justify-content: baseline;
+}
+
+/*navbar*/
+
+.navbar-toggler{
+    
+background-color: white;
+
+}
+
+.navbar-brand{
+    color: rgb(255, 255, 255);
+
+}
+
+
+.nav-item{
+    padding: 15px;
+
+}
+
+
+.navbar-expand-xl{
+    height: 80px;
+
+
+}
+
+.container-fluid{
+    height: 60px;
+}
